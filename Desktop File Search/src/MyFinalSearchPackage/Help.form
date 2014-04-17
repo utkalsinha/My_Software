@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JInternalFrameFormInfo">
+  <Properties>
+    <Property name="frameIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+      <Image iconType="3" name="/MyFinalSearchPackage/we.jpg"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jScrollPane1" alignment="0" pref="610" max="32767" attributes="0"/>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace pref="291" max="32767" attributes="0"/>
+              <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="260" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jScrollPane1" min="-2" pref="393" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="22" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="c9" green="c9" red="da" type="rgb"/>
+            </Property>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="   FILE SEARCH BY TEXT:&#xa;  &#xa;       1) General Search : It is a Searching pattern in which the string&#xa;          entered in the textfield is assumed to be contained in the&#xa;          matched file names.&#xa;       2) Average Search : It is a Searching pattern in which the File&#xa;          names are assumed to starts with the string entered in the &#xa;          textfield.&#xa;       3) Precise Search : it is a Searching pattern in which you need  &#xa;          to know the exact name of the File as well as it&apos;s extension &#xa;          ( for example :- if you want to precise search any file with &#xa;          name &quot;tryu&quot; which is a text file then you must type tryu.txt&#xa;       4) Extension Search :As the name suggest it is used for searching &#xa;          files with particular extension.  .&#xa; &#xa;       Steps:&#xa;     &#xa;       1) Write file name accordingly (as mentioned above) in the&#xa;          Textfield.&#xa;       2) Select the Drive in which you want to search.     &#xa;       3) Select the mode of search.&#xa;       4) Press Search Button to search.&#xa;       5) Press cancel at any time to stop a running search.&#xa;   &#xa;       SEARCH BY SIZE:&#xa; &#xa;       Here the user can search files based on some minimum size.&#xa;&#xa;       Steps:&#xa;            1) Type the minimum size in the Textbox.&#xa;            2) Choose the Unit of size.&#xa;            3) Choose the particular Location to search.&#xa;            4) Click the Search button.&#xa;&#xa;       Note:- If in any case any Drive Is not visible then Press the &#xa;              Refresh Button. Drive will be visible.&#xa;&#xa;&#xa;      (Note: If you didn&apos;t see your Drive in the drop down menu then &#xa;             press the refresh button).&#xa;&#xa;       All sorts of advices and new ideas regarding the software&#xa;       will be highly appreciated.&#xa;&#xa;      Please leave your comments at utkal_singha@yahoo.co.in&#xa;&#xa;                ***   Wish you all Enjoy the software  ***&#xa;                       &#xa;"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Close"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
