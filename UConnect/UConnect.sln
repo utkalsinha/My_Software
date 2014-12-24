@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UConnect", "UConnect\UConnect.csproj", "{8b3f31fa-1b05-4596-9cf2-f4f8a767f518}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B3F31FA-1B05-4596-9CF2-F4F8A767F518}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B3F31FA-1B05-4596-9CF2-F4F8A767F518}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B3F31FA-1B05-4596-9CF2-F4F8A767F518}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B3F31FA-1B05-4596-9CF2-F4F8A767F518}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
